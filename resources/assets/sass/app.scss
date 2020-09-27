@@ -1,0 +1,19 @@
+//font
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Average');
+
+@import "~foundation-sites/assets/foundation";
+
+
+@import "global";
+@import "admin/nav";
+@import "pages/nav";
+@import "pages/home";
+@import "pages/article";
+@import "pages/footer";
+@import "pages/auth";
+
+@import "~motion-ui/src/motion-ui";
+@include motion-ui-transitions;
+@include motion-ui-animations
+
+

@@ -1,0 +1,40 @@
+.article{
+    padding: 6rem;
+
+    @include breakpoint(small only){
+        text-align: center;
+        padding: 0.7rem;
+    }
+
+    .home{
+        padding: 2rem;
+    
+        @include breakpoint(small only) {
+          text-align: center;
+          padding: 0.7rem;
+        }
+    
+        a{
+          color: #0a0a0a;
+    
+          &:focus{
+            outline-style: none;
+          }
+        }
+    
+        .card{
+          padding: 0.9rem;
+          margin-bottom: 0.3rem;
+    
+          .card-section{
+            margin-bottom: 0.7rem;
+    
+            img{
+              width: 200px !important;
+              height: 130px !important;
+              background-size: cover;
+            }
+          }
+        }
+      }
+}

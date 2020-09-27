@@ -1,0 +1,482 @@
+.home{
+  padding: 2rem;
+
+  @include breakpoint(small only){
+    padding: 1.5rem;
+  }
+  
+  .display-featured{
+    padding-left: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+    h2{
+      color: #ff6666;
+      background-color: #ddd;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+  }
+
+  .disply-justin{
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+    h2{
+      color: #ff6666;
+      background-color: #ddd;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+  }
+
+  .disply-advert{
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+    h2{
+      color: #ff6666;
+      background-color: #ddd;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+  }
+
+  .display-breakingnews{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-latest{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    img{
+      width: 250px !important;
+      height: 200px !important;
+      background-size: cover;
+    }
+  }
+
+  .display-healthnews{
+    padding: 2rem;
+    text-align: center;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      width: 150px !important;
+      height: 140px !important;
+      text-align: center;
+      .card-section{
+        width: 150px !important;
+        height: 140px !important;
+        text-align: center;
+        img{
+          background-size: cover;
+          width: 150px !important;
+          height: 140px !important;
+        }
+      }
+    }
+  }
+
+  .display-lifestylenews{
+    padding: 2rem;
+    text-align: center;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      width: 150px !important;
+      height: 140px !important;
+      text-align: center;
+      .card-section{
+        width: 150px !important;
+        height: 140px !important;
+        text-align: center;
+        img{
+          background-size: cover;
+          width: 150px !important;
+          height: 140px !important;
+        }
+      }
+    }
+  }
+
+
+  .display-technewsnews{
+    padding: 2rem;
+    text-align: center;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      width: 150px !important;
+      height: 140px !important;
+      text-align: center;
+      .card-section{
+        width: 150px !important;
+        height: 140px !important;
+        text-align: center;
+        img{
+          background-size: cover;
+          width: 150px !important;
+          height: 140px !important;
+        }
+      }
+    }
+  }
+
+  .display-politics{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-business{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-sport{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-entertainment{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-colu{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-education{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-metro{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+  .display-othernews{
+    padding: 2rem;
+
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.7rem;
+    }
+
+    a{
+      color: #0a0a0a;
+
+      &:focus{
+        outline-style: none;
+      }
+    }
+
+    .card{
+      padding: 0.9rem;
+      margin-bottom: 0.3rem;
+
+      .card-section{
+        margin-bottom: 0.7rem;
+
+        img{
+          width: 200px !important;
+          height: 130px !important;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+}

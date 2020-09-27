@@ -1,0 +1,119 @@
+$menu-background: #1B1920;
+$primary-color: #f54242;
+$secondary-color: #ffffff;
+$logo-img-folder: 'images';
+
+
+
+.navigation{
+    padding: 0;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    font-family: "Open Sans", sans-serif;
+    
+    .logo{
+        background-image: url('/#{$logo-img-folder}/newslogo.jfif');
+        width: 8rem;
+        height: 2.6rem;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    .top-bar{
+        background-color: $secondary-color;
+        .top-bar-left{
+            background-color: $secondary-color;
+            ul{
+                background-color: $secondary-color;
+                li{
+                    a{
+                        color: $primary-color;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .bottom-top-bar{
+            background-color: $menu-background;
+            li{
+                color: $secondary-color;
+                a{
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+
+    .toggle{
+        line-height: 3rem;
+        padding: 0 0.5rem 0.3rem 0.5rem;
+        background-color: darken( $menu-background, 10%);
+
+        .menu-icon{
+            margin-top: 0.5rem;
+
+            &:focus{
+                outline-style: none;
+            }
+
+            &::after{
+                width: 1.8rem;
+            }
+        }
+    }
+
+    .small-logo{
+        padding-bottom: 0.5rem;
+        display: inline-block;
+        height: 2.6rem;
+        width: 2.6rem;
+        color:#ffffff;
+        &:focus{
+            outline-style: none;
+        }
+
+    }
+
+    #tm-search{
+        float: left;
+        margin-left: 8rem;
+        margin-top: -42px;
+    }
+
+    
+    
+    ul.menu.vertical{
+        &.sub{
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+          margin-top: 0.7rem;
+  
+          @include breakpoint(small only){
+            margin-top: 2.4rem;
+            width: 100% !important;
+          }
+  
+          li{
+            border-bottom: 1px dotted #ffffff;
+  
+            a{
+              text-align: left;
+            }
+  
+            &:last-of-type{
+              border-bottom:none;
+            }
+          }
+        }
+
+        @include breakpoint(small only){
+            text-align: left;
+          }
+    }
+}

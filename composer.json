@@ -1,0 +1,27 @@
+{
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        },
+        "files": ["app/functions/helper.php"]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^4.1",
+        "altorouter/altorouter": "^2.0",
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "5.8.*",
+        "phpmailer/phpmailer": "^6.1",
+        "voku/pagination": "^4.0",
+        "nesbot/carbon": "^2.35",
+        "unisharp/laravel-ckeditor": "^4.7"
+        
+    },
+
+    "require-dev": {
+        "filp/whoops": "^2.7"
+    },
+
+    "config": {
+        "optimize-autoloader": true
+    }
+}
