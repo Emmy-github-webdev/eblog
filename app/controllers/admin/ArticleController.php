@@ -30,7 +30,7 @@ class ArticleController extends BaseController
       
         $articles = $this->articles;
         $links = $this->links;
-        return view('admin/articles', compact('articles', 'links'));
+        return view('admin/news/post', compact('articles', 'links'));
 
     }
 

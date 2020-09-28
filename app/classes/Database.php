@@ -13,7 +13,7 @@ class Database
             'database' => getenv('DB_SCHEMA'),
             'username' => getenv('DB_USER'),
             'password' => getenv('DB_PASS'),
-            'charset' => 'utf8',
+            'charset' => 'utf8mb4',
             'collation' => 'utf8_unicode_ci',
             'prefix' => ''
         ]);
